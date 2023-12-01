@@ -1,0 +1,19 @@
+.about-us {
+  display: flex;
+  margin-top: 4em;
+  padding: 4em;
+  .Text-block_text {
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .about-us_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.text_heading-2 {
+  font-size: 42px;
+}

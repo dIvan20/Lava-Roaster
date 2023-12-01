@@ -1,0 +1,31 @@
+.header {
+  background-image: url(/img/header.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100%;
+  background-color: #ccb7a7;
+}
+.welcome-page {
+  display: flex;
+  margin-top: 2em;
+  .Text-block_text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 600px;
+  }
+}
+.text_before {
+  position: relative;
+  font-size: 18px;
+}
+.text_heading {
+  font-size: 60px;
+  text-align: left;
+  margin-top: 10px;
+}
+.text_main {
+  font-size: 16px;
+  margin-top: 15px;
+  max-width: 550px;
+}

@@ -1,0 +1,24 @@
+.shop {
+  text-align: center;
+  margin-top: 4em;
+}
+.products {
+  display: flex;
+  justify-content: center;
+  margin-top: 45px;
+  gap: 30px;
+}
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  .card-name {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  .price {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+}

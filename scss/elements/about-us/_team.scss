@@ -1,0 +1,19 @@
+.team {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 4em;
+  .team-gallary-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 60px;
+  }
+  .team-gallary-title {
+    font-size: 42px;
+    font-weight: 600;
+  }
+  .gallary-card-name {
+    margin-top: 20px;
+  }
+}

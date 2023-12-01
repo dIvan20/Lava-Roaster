@@ -1,0 +1,16 @@
+.information {
+  margin-top: 4em;
+  text-align: center;
+  padding: 4em;
+  .inforamtion-title {
+    font-size: 42px;
+    color: #3d3017;
+  }
+  .information-subtitle {
+    font-size: 18px;
+    a {
+      margin-top: 10px;
+      color: #3d3017;
+    }
+  }
+}
