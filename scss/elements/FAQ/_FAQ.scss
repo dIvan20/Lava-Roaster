@@ -1,0 +1,20 @@
+.FAQ-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 3em;
+}
+.FAQ-card {
+  background-color: #fff;
+  width: 100%;
+  padding: 30px 20px;
+  style summary {
+    cursor: pointer;
+  }
+  p {
+    margin-top: 15px;
+    color: #646464;
+  }
+}

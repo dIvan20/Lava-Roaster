@@ -1,0 +1,18 @@
+.blog-card {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.blog-card-name {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #9b6842;
+}
+.description {
+  margin-top: 10px;
+  font-size: 16px;
+}
+a {
+  color: #000;
+}

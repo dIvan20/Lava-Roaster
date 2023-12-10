@@ -1,0 +1,21 @@
+.coming-soon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 3em;
+  h1 {
+    font-size: 5vw;
+    color: #9b6842;
+    font-weight: 800;
+  }
+  p {
+    max-width: 800px;
+    text-align: center;
+    margin-top: 15px;
+  }
+}
+.coming-soon-form {
+  margin-top: 15px;
+  position: relative;
+}

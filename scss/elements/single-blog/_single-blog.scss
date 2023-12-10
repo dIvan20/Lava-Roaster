@@ -1,0 +1,33 @@
+.single-blog {
+  display: flex;
+  flex-direction: column;
+  img {
+    align-items: center;
+  }
+  margin-top: 3em;
+}
+.single-blog-description {
+  h2 {
+    font-size: 20px;
+    color: #9b6842;
+    margin-top: 20px;
+  }
+  span {
+    margin-top: 15px;
+  }
+  p {
+    margin-top: 15px;
+  }
+  .single-blog-list {
+    margin-top: 15px;
+    a {
+      color: #9b6842;
+    }
+    .single-blog-list-item::before {
+      content: "";
+      width: 5px;
+      height: 5px;
+      background-color: #9b6842;
+    }
+  }
+}
