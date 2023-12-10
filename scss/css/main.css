@@ -568,6 +568,130 @@ legend {
   color: #9b6842;
 }
 
+.blog-card {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.blog-card-name {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #9b6842;
+}
+
+.description {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+a {
+  color: #000;
+}
+
+.single-blog {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3em;
+}
+.single-blog img {
+  align-items: center;
+}
+
+.single-blog-description h2 {
+  font-size: 20px;
+  color: #9b6842;
+  margin-top: 20px;
+}
+.single-blog-description span {
+  margin-top: 15px;
+}
+.single-blog-description p {
+  margin-top: 15px;
+}
+.single-blog-description .single-blog-list {
+  margin-top: 15px;
+}
+.single-blog-description .single-blog-list a {
+  color: #9b6842;
+}
+.single-blog-description .single-blog-list .single-blog-list-item::before {
+  content: "";
+  width: 5px;
+  height: 5px;
+  background-color: #9b6842;
+}
+
+.FAQ-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 3em;
+}
+
+.FAQ-card {
+  background-color: #fff;
+  width: 100%;
+  padding: 30px 20px;
+}
+.FAQ-card style summary {
+  cursor: pointer;
+}
+.FAQ-card p {
+  margin-top: 15px;
+  color: #646464;
+}
+
+.header-error {
+  background-color: #f9f3ee;
+}
+
+.error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 3em;
+}
+
+.message {
+  display: flex;
+  align-items: center;
+  font-size: 20vw;
+  color: #9b6842;
+}
+
+.wrong {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.coming-soon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 3em;
+}
+.coming-soon h1 {
+  font-size: 5vw;
+  color: #9b6842;
+  font-weight: 800;
+}
+.coming-soon p {
+  max-width: 800px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.coming-soon-form {
+  margin-top: 15px;
+  position: relative;
+}
+
 body {
   font-family: Fahkwang;
   background-color: #f9f3ee;
@@ -595,7 +719,7 @@ body {
 .btn-light {
   font-size: 16px;
   padding: 15px 25px;
-  max-width: 150px;
+  max-width: 200px;
   background-color: #f9f3ee;
   color: #3d3017;
   margin-top: 25px;

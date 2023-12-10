@@ -1,0 +1,20 @@
+.header-error {
+  background-color: #f9f3ee;
+}
+.error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 3em;
+}
+.message {
+  display: flex;
+  align-items: center;
+  font-size: 20vw;
+  color: #9b6842;
+}
+.wrong {
+  font-size: 28px;
+  font-weight: 500;
+}
